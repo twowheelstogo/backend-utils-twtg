@@ -1,0 +1,18 @@
+{
+  "name": "utils-twtg",
+  "version": "1.0.0",
+  "description": "this is packacge to control all resources of a service",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "utils"
+  ],
+  "author": "djorellanab",
+  "license": "MIT",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "jest": "^26.4.2"
+  }
+}
