@@ -4,7 +4,8 @@
   "description": "this is packacge to control all resources of a service",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "install-configs": "npm uninstall djorellanabmrb/configs-twtg#master && npm install --save djorellanabmrb/configs-twtg#master -or-commit-or-tag"
   },
   "keywords": [
     "utils"
@@ -14,5 +15,8 @@
   "devDependencies": {
     "chai": "^4.2.0",
     "jest": "^26.4.2"
+  },
+  "dependencies": {
+    "configs-twtg": "github:djorellanabmrb/configs-twtg#master"
   }
 }
